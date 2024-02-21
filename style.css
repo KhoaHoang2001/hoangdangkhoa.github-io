@@ -1,0 +1,76 @@
+:root {
+    --color-nav: black;
+    --color-nav-highlight: white;
+    --color-nav-text: white;
+    --color-nav-text-highlight: black;
+}
+
+a {
+    background-color: var(--color-nav);
+    color: var(--color-nav-text);
+    display: block;
+    font-size: larger;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    width: 75px;
+    padding: 9px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: var(--color-nav-highlight);
+    color: var(--color-nav-text-highlight);
+}
+
+body {
+    height: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+}
+
+h1 {
+    padding-left: 40px;
+}
+
+header nav {
+    background-color: black;
+}
+
+input {
+    height: 50px;
+    font-size: larger;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    height: 100%;
+}
+
+main {
+    height: 600px;
+    padding: 50px 100px;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+    height: 40px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 5%;
+}
